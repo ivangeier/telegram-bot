@@ -1,0 +1,30 @@
+{
+  "name": "telegram-node-bot",
+  "version": "0.0.1",
+  "description": "Experimental project for telegram bots",
+  "main": "src/bot.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/bot.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "node"
+  ],
+  "author": "Ivan Geier",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.57.6",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "axios": "^1.2.0",
+    "correios-brasil": "^3.0.3",
+    "dotenv": "^16.0.3",
+    "node-fetch": "^3.3.0",
+    "node-telegram-bot-api": "^0.60.0",
+    "telegraf": "^3.38.0"
+  }
+}
